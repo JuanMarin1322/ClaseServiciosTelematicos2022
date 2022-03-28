@@ -11,4 +11,4 @@ $TTL 3H
 @       IN      NS      firewall.ascent.com.
 3       IN      PTR     servidor3.ascent.com.
 2       IN      PTR     servidor2.ascent.com.
-100     IN      PTR     firewall.ascent.com.
+100     IN      PTR     firewall.ascent.com. 
