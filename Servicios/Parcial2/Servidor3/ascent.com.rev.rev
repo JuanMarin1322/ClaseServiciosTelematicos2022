@@ -1,0 +1,14 @@
+$ORIGIN 50.168.192.in-addr.arpa.
+$TTL 3H
+@       IN SOA  servidor3.ascent.com.    root@ascent.com. (
+                                        0       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+@       IN      NS      servidor3.ascent.com.
+@       IN      NS      servidor2.ascent.com.
+@       IN      NS      firewall.ascent.com.
+3       IN      PTR     servidor3.ascent.com.
+2       IN      PTR     servidor2.ascent.com.
+100     IN      PTR     firewall.ascent.com.
